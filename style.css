@@ -82,13 +82,26 @@ body {
 }
 
 .canvas-container h2{
-    text-align: center;
     margin: auto;
-    padding: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
     /*font-family: 'Brush Script MT', fantasy;*/
-    font: italic small-caps 20px/2 cursive;
-    /*font-family: 'Courier New', monospace;*/
+    /*font: italic small-caps 18px/2 cursive;*/
+    font-family: 'Courier New', monospace;
+    /*animation: typing 5s steps(30) infinite;*/
+    /*animation: type 4s steps(2);*/
 }
+
+/*@keyframes type{*/
+/*    from {*/
+/*        width: 0;*/
+/*    }*/
+/*    to {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 
 .canvas-container canvas {
     position: absolute;
