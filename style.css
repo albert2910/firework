@@ -80,6 +80,16 @@ body {
     transition: filter 0.3s;
     transition: filter 0.3s, -webkit-filter 0.3s;
 }
+
+.canvas-container h2{
+    text-align: center;
+    margin: auto;
+    padding: 60px;
+    /*font-family: 'Brush Script MT', fantasy;*/
+    font: italic small-caps 20px/2 cursive;
+    /*font-family: 'Courier New', monospace;*/
+}
+
 .canvas-container canvas {
     position: absolute;
     mix-blend-mode: lighten;
